@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTN and 6G Networks</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #e9b3b3;
+            /* Color de fondo gris claro */
+            color: #333;
+            /* Color del texto para mejor contraste */
+            font-family: Arial, sans-serif;
+            /* Fuente de texto */
+        }
+        
+        .text {
+            background-color: rgb(70, 29, 221);
+            /* Color de fondo rojo */
+            height: 20vh;
+            /* Altura del 50% de la altura de la ventana del navegador */
+            width: 100%;
+            /* Ancho del 100% de la ventana del navegador */
+            display: flex;
+            /* Usamos flexbox para centrar el contenido */
+            justify-content: center;
+            /* Centra horizontalmente */
+            align-items: center;
+            /* Centra verticalmente */
+        }
+        
+        .imagen-relativa {
+            position: relative;
+            top: 130px;
+            /* Desplaza la imagen hacia abajo */
+            left: 10px;
+            /* Desplaza la imagen hacia la derecha */
+            width: 200px;
+            height: auto;
+        }
+        
+        #back-button {
+            float: right;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #e31111;
+            color: #fff;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+        
+        .contenedor-columnas {
+            display: flex;
+            /* Activa el modelo de flexbox */
+            gap: 100px;
+            /* Espacio entre las columnas */
+        }
+        
+        .columna {
+            flex: 1;
+            /* Cada columna ocupa el mismo ancho */
+        }
+        
+        .fond-reference {
+            background-color: aqua;
+            justify-content: center;
+            width: 100%;
+            /* Centra horizontalmente */
+            /*align-items: center;*/
+        }
+    </style>
+    <link rel="icon" href="redes.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div>
+        <button id="back-button" onclick="goBack()">Regresar</button>
+        <center><img src="sateliteinicio.gif" alt="NTN"></center>
+
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+    </div>
+
+
+    <img src="redes.jpg" alt="Network" class="imagen-relativa">
+    <div class="text">
+
+        <h1> NTN and 6G Networks</h1>
+
+    </div>
+    <div class="contenedor-columnas">
+
+        <div class="columna" style="text-align: justify">
+            <h1>NTN</h1>
+            <h3><b>What is an NTN in networks?</b></h3>
+            <p>NTN networks are types of networks that do not rely on cables or terrestrial infrastructure to connect devices. Instead, they use technologies that are in the air or space, such as:</p>
+            <p> <b>Satellites:</b> Devices in space that send and receive signals to provide internet and other communications.</p>
+            <p><b>Stratospheric Balloons:</b> Balloons that float high in the atmosphere and can offer internet connectivity in remote areas. Drones: Unmanned aerial vehicles that can provide temporary coverage at events or during disasters.</p>
+            <center><img src="ntn.jpeg" alt="NTN"></center>
+
+            <h3><b>What Are They Used For?</b></h3>
+            <p><b>Remote Areas:</b> Provide internet in places where it's hard to lay cables, like in the countryside or on islands.</p>
+            <p><b>Emergencies:</b> Useful during natural disasters when terrestrial infrastructure is damaged.</p>
+            <p><b>IoT:</b> Help connect smart devices in hard-to-reach locations.</p>
+
+            <h3><b>Advantages</b></h3>
+            <p><b>Wide Coverage:</b>Can reach places where traditional networks don’t go.</p>
+            <p><b>Resilience:</b>Not dependent on terrestrial infrastructure, making them more resistant to certain issues.</p>
+            <p><b>Mobility:</b>Provide connectivity to moving vehicles like planes or ships.</p>
+
+            <h3>Challenges</h3>
+            <p><b>Latency:</b>Satellites, especially those far from Earth, may have delays in connection.</p>
+            <p><b>Interference:</b>Factors like weather can affect the signal.</p>
+            <p><b>Cost:</b>Launching satellites and balloons can be expensive.</p>
+
+            <center><img src="satelite.gif" alt="NTN"></center>
+
+        </div>
+
+        <div class="columna" style="text-align: justify">
+            <h1>6G</h1>
+            <h3>What is 6G?</h3>
+            <p> Is the next evolution in mobile network technology expected to succeed 5G, offering significant improvements in performance, capacity, and functionality. Although 6G is still in development and commercial deployment is anticipated for the
+                mid-2030s.
+            </p>
+            <center><img src="red6g.jpg" alt="NTN" width="300"> </center>
+            <h3>Key Features of 6G</h3>
+            <b>Extremely High Data Speeds:</b>
+            <ol>
+                <p>6G is expected to deliver download speeds of up to 100 Gbps or more, compared to 5G's 10 Gbps.</p>
+                <p>It will enable applications that require large bandwidths, such as high-resolution augmented and virtual reality.</p>
+            </ol>
+
+            <b>Ultra-Low Latency</b>
+            <ol>
+
+                <p>Latency in 6G could be reduced to less than 1 millisecond, improving the responsiveness of real-time and mission-critical applications.</p>
+            </ol>
+
+
+            <b>Increased Capacity and Connection Density</b>
+            <ol>
+
+                <p>>6G will be designed to support a higher density of connected devices, including a larger number of IoT sensors and smart devices.</p>
+            </ol>
+            <b>Improved Energy Efficiency</b>
+            <ol>
+                <p>6G is expected to show significant improvements in energy efficiency, helping to reduce energy consumption in the network and connected devices.</p>
+            </ol>
+            <b>Global and Universal Connectivity</b>
+            <ol>
+                <p>6G might integrate technologies such as satellite networks and high-altitude platforms, providing connectivity in remote areas and enhancing global coverage.</p>
+            </ol>
+            <b>Artificial Intelligence and Machine Learning</b>
+            <ol>
+                <p>AI integration in 6G will enable self-adaptive and self-optimizing networks, improving performance and network management efficiently.</p>
+            </ol>
+            <b>New Communication Technologies</b>
+            <ol>
+                <p>The use of higher frequencies, such as terahertz (THz) waves, will be key to achieving desired data speeds and network capacity.</p>
+            </ol>
+
+            <h3>Potential Applications of 6G</h3>
+
+            <ol>
+                <b>Augmented and Virtual Reality:</b>
+                <p>Immersive experiences with real-time graphics and data.</p>
+            </ol>
+            <ol>
+                <b>Holography:</b>
+                <p>Transmission of 3D holograms for communications and entertainment.</p>
+            </ol>
+            <ol>
+                <b>Smart Cities:</b>
+                <p>Integration of urban infrastructure with advanced communication and management technologies.
+                </p>
+            </ol>
+            <ol>
+                <b>Autonomous Vehicles:</b>
+                <p>Enhanced communication between vehicles and infrastructure for safer and more efficient autonomous driving.</p>
+            </ol>
+            <ol>
+                <b>Telemedicine: </b>
+                <p>High-quality, low-latency remote medical consultations and procedures.</p>
+            </ol>
+
+
+
+
+            <h3>Challenges and Considerations</h3>
+
+            <ol>
+                <b>Infrastructure and Costs:</b>
+                <p>Implementing 6G will require significant infrastructure upgrades and substantial investment.</p>
+            </ol>
+            <ol>
+                <b>Regulation and Standards:</b>
+                <p>New regulations will need to be developed and standardized for the use of higher frequencies and new technologies.</p>
+            </ol>
+            <ol>
+                <b>Security and Privacy:</b>
+                <p>The complexity and global connectivity of 6G will pose new challenges for data security and privacy.</p>
+            </ol>
+            <center><img src="red6g.gif" alt="6G"> </center>
+        </div>
+    </div>
+    <div class="fond-reference">
+        <h2>Reference</h2>
+        <h4>1.El-Mougy, A., Ibnkahla, M., Hossain, E., & Kim, D. I. (2016). Non-terrestrial networks: An overview and market perspectives. IEEE Communications Surveys & Tutorials, 18(4), 2465-2486. doi:10.1109/COMST.2016.2580583</h4>
+        <h4>2.Giambene, G., Kota, S., & Pillai, P. (2021). Satellite 5G: Standardization and Integration Aspects.</h4>
+        <h4>3.6G Vision and Requirements". (2023). Retrieved from Nokia</h4>
+        <h4>4.6G: The Next Horizon". (2021). Retrieved from Ericsson</h4>
+        <h4></h4>
+        <h4></h4>
+    </div>
+
+</body>
+
+</html>

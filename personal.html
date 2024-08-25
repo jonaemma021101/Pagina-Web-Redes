@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL INFORMATION</title>
+    <link rel="icon" href="mia.jpeg" type="image/x-icon">
+    <style>
+        body {
+            background-color: #efdd3d;
+            /* Color de fondo gris claro */
+            color: #333;
+            /* Color del texto para mejor contraste */
+            font-family: Arial, sans-serif;
+            /* Fuente de texto */
+            align-items: center;
+        }
+        
+        .imagen-con-marco {
+            border: 10px solid rgb(21, 14, 224);
+            /* Grosor de 5px, estilo sólido y color negro */
+        }
+        
+        .text {
+            background-color: rgb(25, 73, 203);
+            width: 100%;
+            display: flex;
+            /* Usamos flexbox para centrar el contenido */
+            justify-content: center;
+            /* Centra horizontalmente */
+            align-items: center;
+            /* Centra verticalmente */
+        }
+        
+        .text2 {
+            background-color: rgb(118, 239, 20);
+            width: 100%;
+            display: flex;
+            /* Usamos flexbox para centrar el contenido */
+            justify-content: center;
+            /* Centra horizontalmente */
+            align-items: center;
+            /* Centra verticalmente */
+        }
+        
+        .contenedor-columnas {
+            display: flex;
+            /* Activa el modelo de flexbox */
+            gap: 100px;
+            /* Espacio entre las columnas */
+        }
+        
+        .columna {
+            flex: 1;
+            /* Cada columna ocupa el mismo ancho */
+        }
+        
+        .img_der {
+            transform: translate(1100px, 00px);
+        }
+        
+        #back-button {
+            float: right;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #e31111;
+            color: #fff;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="back-button" onclick="goBack()">Regresar</button>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+    <div>
+        <center><img src="mia.jpeg" width="200" class="imagen-con-marco"></center>
+    </div>
+
+    <div class="text">
+        <h3>My name is Jonathan Emmanuel Hernandez Ortiz</h3>
+
+    </div>
+    <div class="text2">
+        <h4>I study at the National Autonomous University of Mexico in the Faculty of Engineering and I am a ninth semester student.</h4>
+    </div>
+    <div>
+        <img src="miacu.jpeg" alt="CU" width="200">
+        <img src="miacasa.jpeg" alt="CU" width="200" class="img_der">
+    </div>
+
+    <center>
+        <h1>..........I will tell you about myself..........</h1>
+    </center>
+    <div class="contenedor-columnas">
+        <div class="columna" style="text-align: justify">
+            <div class="text">
+                <b>Info Personal</b>
+                <ol>
+                    <p>Birthdate November 2, 2001</p>
+                    <p>I live in tlahuac CDMX</p>
+                    <p>My family is made up of 5 members, which includes 2 sisters.</p>
+                    <p>I am a bricklayer and plumber, I know how to build a house from foundation to finish, a family trade that my father and grandfather taught me since I was approximately 10 years old.</p>
+                    <p>I consider myself an unsociable person, I don't go out to parties, I prefer to watch a series or stay at home with my family.</p>
+                    <center><img src="albañil.jpeg" width="300"></center>
+                </ol>
+            </div>
+
+        </div>
+        <div class="columna" style="text-align: justify">
+            <div class="text2">
+                <b>Hobbits:</b>
+                <ol>
+                    <p>I am very passionate about soccer and I am a fronton player. In my free time, I like to play video games like Warzone, Clash Royale and GTA V</p>
+                    <p>I really like watching Netflix series, specifically horror or science fiction ones or some entertaining series.</p>
+                    <p>I really like going out to ride a motorcycle, I like the world of motorcycling although sometimes I have had some falls because of it, I have two motorcycles, a sports one which is the one with which I frequently go out for a ride</p>
+                    <center><img src="motos.jpeg" alt="Motos" width="200"></center>
+                </ol>
+
+            </div>
+
+        </div>
+        <div class="columna" style="text-align: justify">
+            <div class="text">
+                <b>My family</b>
+                <ol>
+                    <p>My family is made up of my mother named Guadalupe, a housewife, my father, a primary school teacher, Pedro, older sister Jessica, she studied International Relations at UNAM, and currently she works in Canada, I have a sister younger
+                        than me, named Bella Jimena, she is studying to be a physical education teacher just like my father.</p>
+                    <img src="familia.jpeg" alt="Familia" width="200">
+                    <img src="padre.jpeg" alt="Familia" width="200"> </ol>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

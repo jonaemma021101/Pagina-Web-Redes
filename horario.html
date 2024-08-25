@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #139cc6;
+            /* Color de fondo gris claro */
+            color: #ffffff;
+            /* Color del texto para mejor contraste */
+            font-family: Arial, sans-serif;
+            /* Fuente de texto */
+        }
+        
+        #back-button {
+            float: right;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #e31111;
+            color: #fff;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+        
+        .fond-mitad {
+            background-color: rgb(238, 178, 37);
+            /* Color de fondo rojo */
+            height: 20vh;
+            /* Altura del 50% de la altura de la ventana del navegador */
+            width: 100%;
+            /* Ancho del 100% de la ventana del navegador */
+            display: flex;
+            /* Usamos flexbox para centrar el contenido */
+            justify-content: center;
+            /* Centra horizontalmente */
+            align-items: center;
+            /* Centra verticalmente */
+        }
+        
+        #back-button {
+            float: right;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #e31111;
+            color: #fff;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="back-button" onclick="goBack()">Regresar</button>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+
+    <div class="fond-mitad">
+        <center>
+            <h1>Schedule of subjects for the 2025-1 semester </h1>
+        </center>
+    </div>
+
+</body>
+<center><img src="estudios.jpeg" alt="Tira_Materias"></center>
+
+</html>

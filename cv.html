@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        body {
+            background-color: #141313;
+            /* Color de fondo gris claro */
+            color: #ffffff;
+            /* Color del texto para mejor contraste */
+            font-family: Arial, sans-serif;
+            /* Fuente de texto */
+        }
+        
+        #back-button {
+            float: right;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #e31111;
+            color: #fff;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+        
+        .fond-mitad {
+            background-color: rgb(83, 214, 50);
+            /* Color de fondo rojo */
+            height: 20vh;
+            /* Altura del 50% de la altura de la ventana del navegador */
+            width: 100%;
+            /* Ancho del 100% de la ventana del navegador */
+            display: flex;
+            /* Usamos flexbox para centrar el contenido */
+            justify-content: center;
+            /* Centra horizontalmente */
+            align-items: center;
+            /* Centra verticalmente */
+        }
+        
+        .contenedor-columnas {
+            display: flex;
+            /* Activa el modelo de flexbox */
+            gap: 100px;
+            /* Espacio entre las columnas */
+        }
+        
+        .columna {
+            flex: 1;
+            /* Cada columna ocupa el mismo ancho */
+        }
+    </style>
+</head>
+
+<body>
+    <button id="back-button" onclick="goBack()">Regresar</button>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+    <div class="fond-mitad">
+        <h1>Curriculum Vitae and Advance of credits until Semester 2025-1</h1>
+    </div>
+
+    <div class="contenedor-columnas">
+        <div class="=columna" style="text-align: justify">
+
+            <img src="cv.jpeg" alt="CV">
+
+        </div>
+        <div class="=columna" style="text-align: justify">
+
+            <img src="historial1.jpeg" alt="CV">
+            <img src="historial2.jpeg" alt="CV">
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
